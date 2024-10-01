@@ -2,7 +2,7 @@
 #ordered, no duplicate, changeable
 # name : Devansh
 
-myInfo = {"name":"Devansh Ajmera","email":"devanshajmera10@gmail.com","mobile":"7668794312","age":18,"name":"Devansh"}
+myInfo = {"name":"Devansh Ajmera","email":"d@gmail.com","mobile":"12345678","age":18,"name":"Devansh"}
 print(myInfo)
 print(type(myInfo))
 print(myInfo["mobile"])
@@ -18,7 +18,7 @@ for value in myInfo.values():
 # to upadate the values in dictonary...
 myInfo["name"]="DEVANSH AJMERA"
 myInfo["age"]=18
-myInfo["email"]="devanshajmera2005@outlook.com"
+myInfo["email"]="d@outlook.com"
 myInfo["mobile"]="12345678"
 for i in myInfo.values():
     print(i)
