@@ -1,6 +1,5 @@
-#
-# 
-# #print(x)    #NameError: name 'x' is not defined
+
+#print(x)    #NameError: name 'x' is not defined
 try:
     print(x)
 except NameError:
