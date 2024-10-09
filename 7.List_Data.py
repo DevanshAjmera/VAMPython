@@ -2,6 +2,8 @@
 # #list store different type of data like int, string, float.
 # #list can contain duplicate data.
 
+#append, insert, remove, pop, reverse, clear
+
 # #create a list and store your friends name
 # friendsName=["ivan","anshu","anjali","wani",33,26,28,5]
 
@@ -22,9 +24,6 @@
 # #to print the complete list
 # for name in friendsName:
 #     print(name)
-
-
-
 
 
 
@@ -51,10 +50,6 @@
 
 
 
-
-
-
-
 # #to print the complete list
 # friendsName=["ivan","anshu","anjali","wani"]
 # friendsName.append("rahul")
@@ -75,7 +70,7 @@ friendsName.append("kanak")
 friendsName[0] = "ivan sharma"      # to update the value of a data.
 print(friendsName)
 friendsName.sort()                  # sort works only for char, string values...
-for name in friendsName[:-1]:       #   (: print all ), ([-4:1] wani, rahul, rohit ), ([:-1] skip last.)
+for name in friendsName[:-1]:       #   (: print all ), ([-4:-1] wani, rahul, rohit ), ([:-1] skip last.)
     print(name)
 
 #to get the type
