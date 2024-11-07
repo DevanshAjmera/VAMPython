@@ -6,7 +6,7 @@
 
 # To store the multiple values
 # Array ->  it can store the multiple value of same data types...
-# eg---     friendsName= ["Devansh","Ajmera",123]
+# eg---     friendsName= ["Devansh","Ajmera","123"]
 
 # To store the multiple values
 # #List:- It can store multiple value with different data types.
