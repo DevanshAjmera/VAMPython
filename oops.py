@@ -33,10 +33,8 @@ class Car:
     model= 2024
     gears= 7 
     first_gear=50
-
+    
     def top_speed(this, gear):
-        gear = int(input("Enter gear number (1-7) : "))
         print("The top speed is :",50*gear)
 car: Car = Car()
-car.top_speed()
-#(int(input("Enter gear number (1-7) : ")))
+car.top_speed(int(input("Enter gear number (1-7) : ")))

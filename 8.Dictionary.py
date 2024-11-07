@@ -1,4 +1,5 @@
 # Dictionary can store the data in key-value pair
+# can be update, pop, del
 #ordered, no duplicate, changeable
 # name : Devansh
 
@@ -25,10 +26,8 @@ for i in myInfo.values():
 print(" ")
 
 
+myInfo.update({"gender":"male"})    #update the values
 
-
-
-myInfo.update({"gender":"male"})
 for i in myInfo.values():
     print(i)
 
@@ -40,5 +39,3 @@ for i in myInfo.keys():
 
 del myInfo["mobile"]
 print(myInfo)
-
-
