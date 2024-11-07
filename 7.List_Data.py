@@ -70,7 +70,7 @@ friendsName.append("kanak")
 friendsName[0] = "ivan sharma"      # to update the value of a data.
 print(friendsName)
 friendsName.sort()                  # sort works only for char, string values...
-for name in friendsName[:-1]:       #   (: print all ), ([-4:-1] wani, rahul, rohit ), ([:-1] skip last.)
+for name in friendsName[:-1]:       #   (: print all ), ([-4:1] wani, rahul, rohit ), ([:-1] skip last.)
     print(name)
 
 #to get the type
