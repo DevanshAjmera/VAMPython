@@ -1,10 +1,10 @@
-
+"""
 #print(x)    #NameError: name 'x' is not defined
 try:
-    print(x)
+   print(x)
 except NameError:
     print("name x is not defined")
-
+"""
 
 
 # y=1/0
