@@ -1,7 +1,7 @@
 #create file in python with name and extension
 myFile=open("Devansh.txt","w")
 #write name and 
-myFile.write('''My name is Devansh Ajmera and email id : devanshajmera10@gmailcom''')
+myFile.write('''My name is Devansh Ajmera and email id : devansh@gmailcom''')
 #to close the file
 myFile.close()
 
