@@ -10,12 +10,9 @@ readFile=open("Devansh.txt","r")
 print(readFile.read())
 
 
-
 # #Delete the file
 # import os
 # os.remove("Devansh.txt")
-
-
 
 #Create stock api in json -> java script object notation
 myStock=open("myStock.json","w")
@@ -24,6 +21,5 @@ myStock=open("myStock.json","w")
 myStock.write('''{"name":"Devansh Ajmera"}''')
 readStock=open("myStock.json","r")
 print(readStock.read())
-
 
 #read and write the data in xls, csv and json files.....
