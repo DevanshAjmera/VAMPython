@@ -28,3 +28,4 @@ print("Min: ",min)
 #Normal Distribution 
 uniformdata = np.random.uniform(1,10,500)
 print("\n",uniformdata)
+
